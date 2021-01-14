@@ -1,4 +1,4 @@
-package ac.id.atmaluhur.mahasiswa.uasamub_konkes_ti7jm;
+package ac.id.atmaluhur.uasamub_konkes_ti7jm;
 
 import androidx.appcompat.app.AppCompatActivity;
 

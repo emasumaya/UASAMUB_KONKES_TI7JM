@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ac.id.atmaluhur.mahasiswa.uasamub_konkes_ti7jm">
+    package="ac.id.atmaluhur.uasamub_konkes_ti7jm">
+
+    <uses-permission android:name="android.permission.ACCES_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/l"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/l"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".BerhasilAct"></activity>
-        <activity android:name=".CovAct" />
-        <activity android:name=".DaftarAct" />
+        android:theme="@style/Theme.UASAMUB_KONKES_TI7JM">
+        <activity android:name=".SukesAct"></activity>
+        <activity android:name=".BerhasilAct" />
         <activity android:name=".InfoAct" />
-        <activity android:name=".LoginAct" />
+        <activity android:name=".DaftarAct" />
+        <activity android:name=".CovAct" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".RegisterAct" />
-        <activity android:name=".SuksesAct" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginAct">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
